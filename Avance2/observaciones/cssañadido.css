@@ -1,0 +1,38 @@
+
+.contenedor_obs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+input, select:hover{
+    color: black;
+    cursor: pointer;
+}
+.texto_obs1{
+    grid-column: 1 / 4;
+    grid-row: 3;
+}
+.texto_obs2{
+    grid-column: 1 / 4;
+    grid-row: 4;
+}
+.texto_obs1,.texto_obs2, textarea{
+    width: 100%;
+    display: inline;
+}
+input[type="time"],input[type="date"], select{
+    background-color: rgb(250, 240, 240);
+    padding: 3px 4px;
+    border: none;
+}
+textarea{
+    background-color: rgb(250, 240, 240);
+}
+.botn_obs{
+    background-color: rgb(245, 141, 141);
+    border-color: black;
+    border-width: thin;
+    border-radius: 3%;
+    padding: 5px 5px;
+}

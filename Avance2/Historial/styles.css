@@ -1,0 +1,410 @@
+html{
+    background-color: rgb(233, 233, 233);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    /*color: rgb(233, 233, 233);*/
+    padding-left: 45px;
+}
+h2{
+    font-size: medium;
+    color: black;
+}
+h3{
+    font-size: small;
+}
+p {
+    color:black;
+    font-size: medium;
+    margin-top: 200px;
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    margin-left: 200px;
+}
+button{
+    background-color: #185e35;
+    align-items: center;
+}
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container-img{
+    width: 250px;
+}
+
+.nav-main {
+    background-color: rgb(182, 78, 78);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-footer{
+    background-color: rgb(219, 219, 219);
+    height: 60px;
+    padding: 10px 0;
+}
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 30px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #185e35;
+}
+
+hr {
+    height: 10px;
+    margin: 0px ;
+    border: 1px solid #185e35;
+    background-color: #185e35;
+}
+
+
+
+.caja_contenedora
+{
+
+     display: flex;
+     padding: 20px;
+
+}
+
+
+.formulario_registro
+{
+
+        background-color: white;
+        border-radius: 5px;
+        font-family: 'Kanit', sans-serif;
+        padding: 5px;
+        width: 700px;
+        margin: auto;
+        
+
+}
+
+
+.formulario_registro h1
+{
+ 
+ font-size: 25px;
+ text-align: center;
+
+}
+
+
+.formulario_registro div
+{
+  
+ display: flex;
+ padding: 10px;
+ 
+
+}
+
+
+.formulario_registro form
+{
+
+        background-color: rgb(200, 78, 80);
+        height: 690px;
+        padding: 15px;
+        width: 375px;
+
+}
+.formulario_registro img
+{
+
+ padding-top: 200px;
+
+
+}
+
+.formulario_registro h2
+{
+
+color: white;
+padding: 5px;
+
+
+}
+
+
+.formulario_registro input
+{
+   
+   border: 1px solid black;
+   height: 30px;
+   outline: none;
+   width: 300px;
+
+
+
+}
+
+.formulario_registro input:focus
+{
+
+    border: 2px solid #228b22;
+
+}
+
+.boton_registro
+{
+     border: 1px solid black;
+     border-radius: 15px;
+     color: white;
+     font-family: 'Kanit', sans-serif;
+     font-size: 15px;
+     padding: 5px;
+     width: 225px;
+
+}
+
+.asi
+{
+
+   /*background-color: white;*/
+   height: 35px;
+
+}
+
+.contenedora_login
+{
+
+
+font-family: 'Kanit', sans-serif;
+padding: 35px;
+
+
+}
+
+.login
+{
+
+background-color: white;
+border-radius: 5px;
+height: 450px;
+margin: auto;
+padding: 35px;
+width:400px;
+
+
+
+}
+
+.login img
+{
+ 
+ padding-left: 60px;
+
+}
+
+.caja
+{
+
+ height: 400px;
+ padding: 5px;
+
+
+
+}
+
+.caja h1
+{
+
+font-size: 20px;
+padding-left: 100px;
+
+
+}
+
+
+.caja h2
+{
+
+color: white;
+padding: 10px;
+
+
+}
+
+.caja form
+{
+
+ background-color: rgb(200, 78, 80);
+ padding: 10px;
+
+
+}
+
+.caja input
+{
+   border: 1px solid black;
+   height: 30px;
+   outline: none;
+   width: 300px;
+
+}
+
+
+.caja input:focus
+{
+
+border: 2px solid #228b22;
+
+}
+.ingresa
+{
+
+padding: 20px;
+text-align: center;
+
+
+}
+
+.ingresa button
+{
+  
+  border:1px solid black;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 15px;
+  height: 25px;
+  width: 225px;
+
+}
+
+
+/*Parte historial de uso */
+
+
+.contenedora_historial
+{
+
+padding: 40px;
+
+}
+
+
+.seccion_historial
+{
+
+    /*border: 1px solid black;*/
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+    height: 700px;
+    margin: auto;
+    padding: 10px;
+    width: 1100px;
+
+}
+.caja_titulo
+{
+
+border-bottom: 2px solid;
+border-bottom-color: rgb(200, 78, 80);
+height: 50px;
+text-align: center;
+
+}
+
+
+.caja_titulo h1
+{
+
+color: #228b22;
+padding-top: 15px;
+
+
+}
+
+
+
+.genera_espacio{
+
+padding: 25px;
+
+}
+
+.caja_historial
+{
+ 
+ /*background-image: url(images/logod.png);
+ background-size: cover;
+ background-position: center;*/
+ height: 450px;
+ padding: 20px;
+
+
+}
+
+
+.registro_historial td
+{
+
+   text-align: center;
+
+}
+
+.registro_historial .campos
+{
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+border-bottom-color: #228b22;
+border-top-color: #228b22;
+color: rgb(200, 78, 80);
+padding-bottom: 10px;
+padding-top: 10px;
+
+
+}
+
+.top
+{
+
+border-bottom: 1px solid black;
+border-bottom-color: #228b22;
+padding-bottom: 10px;
+padding-top: 10px;
+
+}
+
+
+
+
+
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 10px;
+    height: 30px;
+    width: 100%;
+}
+
